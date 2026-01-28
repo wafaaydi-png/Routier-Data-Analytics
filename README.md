@@ -1,12 +1,6 @@
 Analyse des Accidents Routiers Facteurs, Infrastructure et Risques
 
 
-📝 Description
-
-Ce projet utilise Power BI pour analyser les données relatives à la sécurité routière et à la circulation.
-L'objectif est de transformer des données brutes d'accidents en informations exploitables pour identifier les facteurs de risque, les zones géographiques critiques et les tendances temporelles afin d'améliorer la prévention routière.
-
-
 📊 Fonctionnalités Clés
 
 Le tableau de bord permet une exploration interactive selon plusieurs axes:
