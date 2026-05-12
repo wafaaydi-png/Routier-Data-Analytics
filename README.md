@@ -1,35 +1,152 @@
-Analyse des Accidents Routiers Facteurs, Infrastructure et Risques
+# 🚗 Analyse des Accidents Routiers | Projet Power BI
 
+## 📌 Aperçu du projet
 
-📊 Fonctionnalités Clés
+Ce projet présente un tableau de bord interactif développé avec **Power BI** pour analyser les données des **accidents routiers** et identifier les principaux facteurs influençant leur fréquence et leur niveau de risque.
 
-Le tableau de bord permet une exploration interactive selon plusieurs axes:
+L’objectif est d’explorer :
 
-Gravité des Incidents : Analyse de la répartition des accidents (légers, graves, fatals).
+- Les indicateurs généraux des accidents
+- L’impact de l’infrastructure routière
+- Les facteurs de risque liés aux conditions de circulation
 
-Analyse Temporelle : Suivi des évolutions par année, mois et jour de la semaine pour détecter des périodes de forte accidentalité.
+---
 
+## 📊 Tableaux de bord
 
-Conditions d'Accidents : Étude de l'impact de la météo, de la luminosité et du type de route sur la sécurité.
+## 1️⃣ Dashboard : Indicateurs des Accidents Routiers
 
+Ce tableau de bord offre une vue d’ensemble sur la fréquence et la répartition des accidents.
 
-Géolocalisation : Cartographie des points noirs et des zones à haute densité de trafic.
+### KPI principaux :
 
+- **Taux moyen des accidents :** `1,19`
 
+### Visualisations :
 
-🛠️ Stack Technique
+- **Accidents par période de la journée**
+  - Matin
+  - Après-midi
+  - Soir
 
-Outil BI : Power BI Desktop.
+- **Accidents par type de route**
+  - Autoroute
+  - Zone urbaine
+  - Zone rurale
 
+- **Accidents par conditions météorologiques**
+  - Brouillard
+  - Temps clair
+  - Pluie
 
-Thème Visuel : Utilisation du thème "Innovate" pour une interface moderne et intuitive.
+### Principaux insights :
 
+✔ Le soir présente légèrement plus d’accidents  
+✔ Les autoroutes enregistrent le plus grand nombre d’accidents  
+✔ Le brouillard augmente la fréquence des accidents  
 
-Modélisation de Données :
+---
 
+## 2️⃣ Dashboard : Infrastructure Routière
 
-DAX (Data Analysis Expressions) : Création de mesures pour le calcul des taux de mortalité, de gravité et de variations annuelles.
+Ce tableau analyse l’impact des caractéristiques de l’infrastructure sur les accidents.
 
+### KPI principaux :
 
+- **Pourcentage des routes avec panneaux :** `49,92 %`
+- **Pourcentage des routes privées :** `49,77 %`
+- **Pourcentage des routes publiques :** `50,23 %`
 
-Power Query : Transformation et nettoyage des données (ETL) pour assurer l'intégrité des rapports
+### Visualisations :
+
+- **Accidents par nombre de voies**
+- **Accidents par type d’éclairage**
+  - Lumière du jour
+  - Faible luminosité
+  - Nuit
+
+### Principaux insights :
+
+✔ Les accidents sont répartis de manière similaire selon le nombre de voies  
+✔ Les conditions de faible éclairage augmentent le risque d’accident  
+✔ Les routes publiques et privées présentent une répartition équilibrée  
+
+---
+
+## 3️⃣ Dashboard : Risque Routier
+
+Ce tableau de bord permet d’évaluer le niveau de risque moyen selon plusieurs facteurs.
+
+### Filtres interactifs :
+
+- Période de la journée
+- Vacances / Hors vacances
+
+### Visualisations :
+
+- **Risque moyen par type de route**
+- **Risque moyen par limitation de vitesse**
+
+### Principaux insights :
+
+✔ Les routes urbaines présentent un risque moyen légèrement plus élevé  
+✔ Le risque augmente fortement avec des limitations de vitesse élevées (60–70 km/h)  
+✔ Les périodes de vacances peuvent influencer les tendances des accidents  
+
+---
+
+## 🛠️ Outils utilisés
+
+- **Power BI Desktop**
+- **Power Query**
+- **DAX (mesures et KPI)**
+- **Modélisation de données**
+
+---
+
+## 📂 Variables analysées
+
+Les principales variables utilisées dans ce projet :
+
+- `road_type` → type de route
+- `weather` → conditions météorologiques
+- `lighting` → conditions d’éclairage
+- `speed_limit` → limitation de vitesse
+- `time_of_day` → période de la journée
+- `holiday` → vacances
+- `num_lanes` → nombre de voies
+- `risk_score` → score de risque
+- `total_accidents` → nombre total d’accidents
+
+---
+
+## 🎯 Objectifs du projet
+
+- Analyser les tendances des accidents routiers
+- Évaluer l’impact de l’infrastructure
+- Identifier les situations à haut risque
+- Aider à la prise de décision pour améliorer la sécurité routière
+
+---
+
+## 📸 Aperçu du dashboard
+
+Inclure ici les captures d’écran des trois tableaux de bord :
+
+- Dashboard Indicateurs des Accidents
+- Dashboard Infrastructure Routière
+- Dashboard Risque Routier
+
+---
+
+## 🚀 Compétences démontrées
+
+✅ Nettoyage des données  
+✅ Modélisation des données  
+✅ Création de KPI  
+✅ Calculs DAX  
+✅ Conception de dashboards interactifs  
+✅ Data storytelling  
+
+---
+
