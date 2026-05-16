@@ -146,7 +146,6 @@ Inclure ici les captures d’écran des trois tableaux de bord :
 ✅ Création de KPI  
 ✅ Calculs DAX  
 ✅ Conception de dashboards interactifs  
-✅ Data storytelling  
 
 ---
 
